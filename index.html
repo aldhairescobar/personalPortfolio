@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Aldhair Escobar - Personal Website</title>
+     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+     <div class="page-container">
+<!--      welcome section -->
+     <section id="welcome-section">
+          <!--      Nav bar -->
+          <nav id="navbar" class="nav">
+               <div class="image-container">
+                    <img class="img-profile" src="img/prof.png" alt="aldhair-profile-image">
+               </div>
+               <div class="menu-container">
+                    <ul class="nav-list">
+                         <li><a class="nav-link blog-link">Blog</a></li>
+                         <li><a class="nav-link projects-link" href="#projects">Projects</a></li>
+                         <li><a class="nav-link about-link" href="#about-me-section">About</a></li>
+                    </ul>
+               </div>
+          </nav>
+          <div class="headers">
+               <h1 class="header-top">Hi, my name is</h1>
+               <h2 class="header-middle">Aldhair Escobar</h2>
+               <h3 class="header-bottom">I'm a Javascript Developer from Mexico</h3>
+          </div>
+          <hr class="break-line">
+          <p class="header-description">I have fun building responsive websites and my goal is to build awesome single page applications.</p>
+          <a class="a-tag-button" href="mailto:aldhair.escobar@gmail.com" rel="nofollow noopener noreferrer">
+               <button type="button" class="btn">Get in Touch</button>
+          </a>
+     </section>
+<!--      Projects section -->
+<section id="projects">
+     <h3 class="header-section-text">View some of my recent projects</h3>
+     <hr class="header-section-line">
+     <div class="project">
+          <div class="img-container first-image-container">
+               <img class="talkative-img" src="assets/talkative2gi.gif" alt="talkative-page-preview">
+          </div>
+          <div class="text-container">
+               <h2 class="project-title">Talkative Landing Page</h2>
+               <p class="project-description">Language Exchange Meetings in my city</p>
+               <p class="project-first-textline">This project was build to have a website of our conversation group in order to create confidence to our future members.</p>
+               <p class="project-second-textline">I used the Google Sheet API to fetch the topics that we’re going to talk about and their links.</p>
+               <div class="project-technologies-container">
+                    <span>HTML</span><span>CSS</span><span>Vanilla JS</span><span>Google Sheet API</span>
+               </div>
+               <a href="https://github.com/aldhairescobar/talkativeSiteUpgrade" target="_blank"><img class="icon-github-project" src="img/github.svg" alt="github-icon"></a>
+
+          </div>
+     </div>
+     <div class="project">
+          <div class="img-container second-img-container">
+               <img class="beat-box-img" src="assets/beatboxg.gif" alt="beatbox-page-preview">
+          </div>
+          <div class="text-container">
+               <h2 class="project-title">Beat Box</h2>
+               <p class="project-description">A Beat Box built with JS</p>
+               <p class="project-first-textline">This project was part of a challenge in order to apply my knowledge about ECMAScript 6.</p>
+               <p class="project-second-textline">I applied arrow functions, constructor functions, classes, "this" keyword and methods.</p>
+               <div class="project-technologies-container">
+                    <span>HTML</span><span>CSS</span><span>Vanilla JS</span><span>ES6</span>
+               </div>
+               <a href="https://github.com/aldhairescobar/beatBoxJS" target="_blank"><img class="icon-github-project" src="img/github.svg" alt="github-icon"></a>
+          </div>
+     </div>
+     <div class="project">
+          <div class="img-container third-img-container">
+               <img class="weather-img" src="assets/weatherAppG.gif" alt="weatherapp-preview">
+          </div>
+          <div class="text-container">
+               <h2 class="project-title">Weather App</h2>
+               <p class="project-description">A simple Weather App</p>
+               <p class="project-first-textline">This project was built to solidify my understanding of Javascript fundamentals.</p>
+               <p class="project-second-textline">The App fetches data from OpenWeatherMap API and shows the information to the user in a simplest way.</p>
+               <div class="project-technologies-container">
+                    <span>HTML</span><span>CSS</span><span>Vanilla JS</span><span>OpenWeatherMap API</span>
+               </div>
+               <a href="https://github.com/aldhairescobar/WeatherApp" target="_blank"><img class="icon-github-project" src="img/github.svg" alt="github-icon"></a>
+          </div>
+     </div>
+</section>
+<!-- about me section -->
+<section id="about-me-section" class="about-me">
+     <h3 class="header-section-text">About me</h3>
+     <hr class="header-section-line about-me-line">
+     <div class="about-first-text">I'm very interested in creating applications to support startups.</div>
+     <div class="about-me-text">
+          <div>Currently learning node.js, express and building new projects to  strengthen my knowledge in HTML, CSS and JavaScript.</div>
+          <div>I love learning new technologies and tools, so, every day I try to learn something new and keep myself in constant training.</div>
+     </div>
+     <div class="technologies-section">
+          <div class="technologies-header">Technologies I've worked with.</div>
+          <div class="table-section">
+               <div>
+                    <ul>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JavaScript (ES6+)</li>
+                         <li>Jquery</li>
+                    </ul>
+               </div>
+               <div class="middle-table">
+                    <ul>
+                         <li>Bootstrap</li>
+                         <li>Git & Github</li>
+                         <li>Figma</li>
+                    </ul>
+               </div>
+               <div>
+                    <ul>
+                         <li>Node.Js</li>
+                         <li>Express</li>
+                         <li>EJS</li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+</section>
+
+<!-- contact section -->
+<section class="contact-section">
+     <div class="contact-text">
+          <a class="a-tag-button" href="mailto:aldhair.escobar@gmail.com" rel="nofollow noopener noreferrer">
+               <button type="button" class="btn">Get in Touch</button>
+          </a>
+     </div>
+
+     <div class="contact-icons-container">
+          <a href="https://github.com/aldhairescobar"><img class="icon icon-github" src="img/github.svg" alt="github-icon"></a>
+          <a href="https://twitter.com/aldhairescobar_"><img class="icon icon-twitter" src="img/twitter.svg" alt="twitter-icon"></a>
+          <a href="https://www.linkedin.com/in/aldhair-escobar-7820171a6/"><img class="icon icon-linkedin" src="img/linkedin.svg" alt="linkedin-icon"></a>
+     </div>
+</section>
+
+<!-- footer section -->
+<footer class="footer">
+     <p>© 2020 • Crafted by <a href="https://twitter.com/aldhairescobar_">Aldhair Escobar</a></p>
+</footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="fadein.js"></script>
+</body>
+</html>
