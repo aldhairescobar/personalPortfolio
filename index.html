@@ -6,11 +6,32 @@
      <title>Aldhair Escobar - Personal Website</title>
      <link rel="stylesheet" href="styles.css">
      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+
+     <link rel="shortcut icon" href="favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
 </head>
 <body>
      <div class="page-container">
      <!--      welcome section -->
-     <section id="welcome-section">
+     <div id="welcome-section">
           <!--      Nav bar  class="nav"-->
           <nav id="navbar">
                <div class="image-container">
@@ -32,17 +53,17 @@
           <hr class="break-line">
           <p class="header-description">I have fun building responsive websites and my goal is to build awesome single page applications.</p>
           <a class="btn" href="mailto:aldhair.escobar@gmail.com" rel="nofollow noopener noreferrer">Get in Touch</a>
-     </section>
+     </div>
 <!--      Projects section -->
 <section id="projects">
      <h3 class="header-text-section">View some of my recent projects</h3>
      <hr class="header-section-line">
      <div class="project">
-          <div class="img-container first-image-container">
+          <div class="img-container">
                <img class="talkative-img" src="assets/talkative2gi.gif" alt="talkative-page-preview">
           </div>
           <div class="text-container">
-               <h2 class="project-title">Talkative Landing Page</h2>
+               <h2 class="project-title"><a href="https://talkative.netlify.app/" target="_blank">Talkative Landing Page</a></h2>
                <p class="project-description">Language Exchange Meetings in my city</p>
                <p class="project-first-textline">This project was build to have a website of our conversation group in order to create confidence to our future members.</p>
                <p class="project-second-textline">I used the Google Sheet API to fetch the topics that we’re going to talk about and their links.</p>
@@ -54,11 +75,11 @@
           </div>
      </div>
      <div class="project">
-          <div class="img-container second-img-container">
+          <div class="img-container">
                <img class="beat-box-img" src="assets/beatboxg.gif" alt="beatbox-page-preview">
           </div>
           <div class="text-container">
-               <h2 class="project-title">Beat Box</h2>
+               <h2 class="project-title"><a href="https://aldhairescobar.github.io/beatBoxJS/" target="_blank">Beat Box</a></h2>
                <p class="project-description">A Beat Box built with JS</p>
                <p class="project-first-textline">This project was part of a challenge in order to apply my knowledge about ECMAScript 6.</p>
                <p class="project-second-textline">I applied arrow functions, constructor functions, classes, "this" keyword and methods.</p>
@@ -69,11 +90,11 @@
           </div>
      </div>
      <div class="project">
-          <div class="img-container third-img-container">
+          <div class="img-container">
                <img class="weather-img" src="assets/weatherAppG.gif" alt="weatherapp-preview">
           </div>
           <div class="text-container">
-               <h2 class="project-title">Weather App</h2>
+               <h2 class="project-title"><a href="https://weatherapptest.netlify.app/" target="_blank">Weather App</a></h2>
                <p class="project-description">A simple Weather App</p>
                <p class="project-first-textline">This project was built to solidify my understanding of Javascript fundamentals.</p>
                <p class="project-second-textline">The App fetches data from OpenWeatherMap API and shows the information to the user in a simplest way.</p>
@@ -123,7 +144,7 @@
 </section>
 
 <!-- contact section -->
-<section class="contact-section">
+<div class="contact-section">
      <div class="contact-text">
           <a class="btn" href="mailto:aldhair.escobar@gmail.com" rel="nofollow noopener noreferrer">Get in Touch</a>
      </div>
@@ -133,7 +154,7 @@
           <a href="https://twitter.com/aldhairescobar_"><img class="icon icon-twitter" src="img/twitter.svg" alt="twitter-icon"></a>
           <a href="https://www.linkedin.com/in/aldhair-escobar-7820171a6/"><img class="icon icon-linkedin" src="img/linkedin.svg" alt="linkedin-icon"></a>
      </div>
-</section>
+</div>
 
 <!-- footer section -->
 <footer class="footer">
